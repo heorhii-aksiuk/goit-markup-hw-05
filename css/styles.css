@@ -280,8 +280,32 @@ img {
   display: flex;
 }
 
+.doing-item {
+  position: relative;
+}
+
 .doing-item:not(:last-child) {
   margin-right: 30px;
+}
+.doing-description {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+  text-align: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.doing-description-block {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: hsla(235, 10%, 21%, 0.8);
 }
 
 /* Секция "Наша команда" */
